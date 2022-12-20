@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequizmanagementsystem.TeacherController">
+   <children>
+      <ScrollPane prefHeight="200.0" prefWidth="600.0">
+         <content>
+            <VBox prefHeight="3200.0" prefWidth="580.0">
+               <children>
+                  <Label text="Enter Question No: 01">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="ta1" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="tf1a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf1b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf1c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf1d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans1" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 02">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta2" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf2a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf2b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf2c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf2d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans2" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 03">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta3" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf3a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf3b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf3c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf3d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans3" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 04">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta4" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf4a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf4b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf4c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf4d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans4" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 05">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta5" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf5a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf5b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf5c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf5d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans5" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 06">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta6" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf6a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf6b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf6c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf6d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans6" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 07">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta7" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf7a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf7b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf7c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf7d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans7" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 08">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta8" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf8a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf8b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf8c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf8d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans8" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 09">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta9" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf9a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf9b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf9c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf9d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans9" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Question No: 10">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta10" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <Label text="Enter 4 Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="tf10a" promptText="A:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf10b" promptText="B:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf10c" promptText="C:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="tf10d" promptText="D:">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Label text="Enter Right Option:">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextField fx:id="ans10" promptText="Ex: A/B/C/D">
+                     <VBox.margin>
+                        <Insets left="30.0" right="430.0" top="5.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <VBox alignment="CENTER" prefHeight="100.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="save" mnemonicParsing="false" onAction="#saveButton" text="Save" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</HBox>

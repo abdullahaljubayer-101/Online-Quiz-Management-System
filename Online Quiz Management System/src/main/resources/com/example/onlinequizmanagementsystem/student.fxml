@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.onlinequizmanagementsystem.StudentController">
+   <children>
+      <ScrollPane prefHeight="200.0" prefWidth="600.0">
+         <content>
+            <VBox prefHeight="2400.0" prefWidth="580.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="start" mnemonicParsing="false" onAction="#startButton" text="Start" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="time" strokeType="OUTSIDE" strokeWidth="0.0" text="10 : 00" />
+                     </children>
+                  </HBox>
+                  <Label text="Question No: 01">
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextArea fx:id="ta1" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </TextArea>
+                  <RadioButton fx:id="rb1a" mnemonicParsing="false" onAction="#RadioButton1">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g1" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb1b" mnemonicParsing="false" onAction="#RadioButton1" toggleGroup="$g1">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb1c" mnemonicParsing="false" onAction="#RadioButton1" toggleGroup="$g1">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb1d" mnemonicParsing="false" onAction="#RadioButton1" toggleGroup="$g1">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 02">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta2" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb2a" mnemonicParsing="false" onAction="#RadioButton2">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g2" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb2b" mnemonicParsing="false" onAction="#RadioButton2" toggleGroup="$g2">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb2c" mnemonicParsing="false" onAction="#RadioButton2" toggleGroup="$g2">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb2d" mnemonicParsing="false" onAction="#RadioButton2" toggleGroup="$g2">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 03">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta3" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb3a" mnemonicParsing="false" onAction="#RadioButton3">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g3" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb3b" mnemonicParsing="false" onAction="#RadioButton3" toggleGroup="$g3">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb3c" mnemonicParsing="false" onAction="#RadioButton3" toggleGroup="$g3">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb3d" mnemonicParsing="false" onAction="#RadioButton3" toggleGroup="$g3">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 04">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta4" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb4a" mnemonicParsing="false" onAction="#RadioButton4">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g4" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb4b" mnemonicParsing="false" onAction="#RadioButton4" toggleGroup="$g4">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb4c" mnemonicParsing="false" onAction="#RadioButton4" toggleGroup="$g4">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb4d" mnemonicParsing="false" onAction="#RadioButton4" toggleGroup="$g4">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 05">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta5" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb5a" mnemonicParsing="false" onAction="#RadioButton5">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g5" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb5b" mnemonicParsing="false" onAction="#RadioButton5" toggleGroup="$g5">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb5c" mnemonicParsing="false" onAction="#RadioButton5" toggleGroup="$g5">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb5d" mnemonicParsing="false" onAction="#RadioButton5" toggleGroup="$g5">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 06">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta6" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb6a" mnemonicParsing="false" onAction="#RadioButton6">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g6" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb6b" mnemonicParsing="false" onAction="#RadioButton6" toggleGroup="$g6">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb6c" mnemonicParsing="false" onAction="#RadioButton6" toggleGroup="$g6">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb6d" mnemonicParsing="false" onAction="#RadioButton6" toggleGroup="$g6">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 07">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta7" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb7a" mnemonicParsing="false" onAction="#RadioButton7">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g7" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb7b" mnemonicParsing="false" onAction="#RadioButton7" toggleGroup="$g7">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb7c" mnemonicParsing="false" onAction="#RadioButton7" toggleGroup="$g7">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb7d" mnemonicParsing="false" onAction="#RadioButton7" toggleGroup="$g7">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 08">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta8" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb8a" mnemonicParsing="false" onAction="#RadioButton8">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g8" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb8b" mnemonicParsing="false" onAction="#RadioButton8" toggleGroup="$g8">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb8c" mnemonicParsing="false" onAction="#RadioButton8" toggleGroup="$g8">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb8d" mnemonicParsing="false" onAction="#RadioButton8" toggleGroup="$g8">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 09">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta9" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb9a" mnemonicParsing="false" onAction="#RadioButton9">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g9" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb9b" mnemonicParsing="false" onAction="#RadioButton9" toggleGroup="$g9">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb9c" mnemonicParsing="false" onAction="#RadioButton9" toggleGroup="$g9">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb9d" mnemonicParsing="false" onAction="#RadioButton9" toggleGroup="$g9">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <Label text="Question No: 10">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <TextArea fx:id="ta10" editable="false" prefHeight="80.0" prefWidth="200.0">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="15.0" top="5.0" />
+                     </VBox.margin>
+                  </TextArea>
+                  <RadioButton fx:id="rb10a" mnemonicParsing="false" onAction="#RadioButton10">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                     <toggleGroup>
+                        <ToggleGroup fx:id="g10" />
+                     </toggleGroup>
+                  </RadioButton>
+                  <RadioButton fx:id="rb10b" mnemonicParsing="false" onAction="#RadioButton10" toggleGroup="$g10">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb10c" mnemonicParsing="false" onAction="#RadioButton10" toggleGroup="$g10">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <RadioButton fx:id="rb10d" mnemonicParsing="false" onAction="#RadioButton10" toggleGroup="$g10">
+                     <VBox.margin>
+                        <Insets left="30.0" top="5.0" />
+                     </VBox.margin>
+                  </RadioButton>
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="save" mnemonicParsing="false" onAction="#saveButton" text="Save" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="40.0" prefWidth="200.0">
+                     <children>
+                        <Text fx:id="mark" strokeType="OUTSIDE" strokeWidth="0.0" text="Mark: 0/0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </children>
+</HBox>
